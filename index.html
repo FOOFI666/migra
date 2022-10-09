@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <link rel="stylesheet" href="css/style.css">
+     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <scrip src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></scrip>
+</head>
+<body>
+    
+    <!--HEADER-->
+    
+    <div class="header">
+        <div class="container">
+           <div class="header__flex">
+            <div class="header__inner">
+               <img class="gerb" src="images/logo.png" alt="">
+                <div class="main__logo">
+                    <div class="logo">
+                        M I G R A
+                    </div>
+                    <hr>
+                    <div class="sup__logo">
+                        CORPORATION
+                    </div>
+                </div>
+                <div class="right__logo">
+                    Миграционные услуги<br>в Москве и Московской Области
+                </div>
+            </div>
+            <div class="button">
+                <button id="myBtn-1" class="btn">
+                    Обратная связь
+                </button>
+            </div>
+            <div class="main__number">
+               <img class="number__logo" src="images/mobile.png" alt="">
+               <div class="number__block">
+                <div class="number">
+                    +7(228)228-13-77
+                </div>
+                <div class="center__number">
+                    Запишитесь на прием
+                </div>
+                <div class="sup__number">
+                    с 9:00 до 19:00
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--INTRO-->
+    
+    <div class="intro">
+            <div class="intro__inner">
+               <div class="intro__main">
+                   <div class="intro__sup-main">
+                       Миграционные услуги
+                   </div>
+                   <div class="intro__sub-main">
+                       В Москве и Московской Области
+                   </div>
+               </div>
+                <div class="intro__sup">
+                   <div class="intro__sup-block">
+                    <div class="intro__description">
+                       <img src="images/galka.png" alt="">
+                         Надежность и качество работы
+                    </div>
+                    <div class="intro__description">
+                       <img src="images/galka.png" alt="">
+                        Ответственность за каждого клиента
+                    </div>
+                    <div class="intro__description">
+                       <img src="images/galka.png" alt="">
+                        Профессионализм сотрудников
+                    </div>
+                    <div class="intro__description">
+                       <img src="images/galka.png" alt="">
+                        Большой опыт работы более 10 лет
+                    </div>
+                </div>
+                <div class="button__main">
+                    <button id="myBtn-2" class="btn__main">
+                        Бесплатная консультация
+                    </button>
+                </div>
+                </div>
+            </div>
+
+    </div>
+    
+    
+    <!--MODAL-->
+    
+    <div id="myModal" class="modal">
+        <div class="modal__dialog">
+           <span class="close" type="button">
+                           ×
+           </span>
+            <div class="modal__logo">
+                Записаться на<br>консультацию
+            </div>
+            <div class="modal__sup-logo">
+                В течении 10-15 минут<br>специалист с Вами свяжется!
+            </div>
+            
+            
+            
+            <form class="input__form" action="send.php" method="post">
+                
+                <input class="input" type="text" name="text" placeholder="Имя" required />
+                <input class="input" type="tel" name="tel" placeholder="Телефон" required  />
+                <input class="input" type="text" name="textTo" placeholder="Из какого города обращаетесь"  />
+                
+                <input class="btn__modal" type="submit" value="Оставить заявку"  />
+                
+            </form>
+            
+            
+            
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    <script src="js/app.js"></script>
+</body>
+</html>
